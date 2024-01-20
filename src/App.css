@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header {
+  background-image: url("./assets/bg-cafe.jpg");
+  background-size:cover;
+  background-position: center;
+min-height: 17em;
+}
+
+.display
+{
+  position: absolute;
+  min-height:40em;
+  min-width: 10em;
+  width:53%;
+  background-color: #1B1D1F;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -13%);
+border-radius: 2em;
+
+}
+
+.bg
+{
+  background-color: #111315;
+  height: 145em;
+}
+
+.btn
+{
+color: #FEF7EE;
+border-radius: 0.6rem;
+}
+
+.buttons
+{
+  display: flex;
+  justify-content: center;
+}
